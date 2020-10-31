@@ -2,8 +2,8 @@ var express = require("express");
 var app = express();
 var PORT  = process.env.PORT || 3033
 
-app.get("/anasayfa",function(req, res){
-    res.send("hakkimda");
+app.get("/home",function(req, res){
+    res.send("Ok");
 });
 
 app.use(express.static(__dirname + "/public"))
