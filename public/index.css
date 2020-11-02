@@ -22,8 +22,8 @@ img {
 }
 
 .icerik {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border-radius: 30px;
 }
 
@@ -45,7 +45,7 @@ table {
   }
 
 button { 
-  width: 250px;
+  width: 100%;
   background-color: #32679b;
 }
 
@@ -55,7 +55,6 @@ button {
 
 .content p {
   text-align: center;
-  font-family: 'Sacramento', cursive;
   font-size: 50px;
 }
 
