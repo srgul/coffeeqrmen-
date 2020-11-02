@@ -171,7 +171,7 @@
                 <button class="btn btn-info" id="thirdWave">3.Nesil Demleme</button>
                 <div class="container thirdWave">
                     <table id="thirdWaveDrink">
-                        <tr>
+                        <tr>Çekirdekler için bilgi alınız
                             <th>3.Nesil Demleme</th>
                             <th>Tek </th>
                             <th>Çift</th>
@@ -197,9 +197,9 @@
                 </div>     
             </div>
             <div class="icerik sandviç container">
-              <button class="btn btn-info" id="standart">Nomad Sandviç</button>
+              <button class="btn btn-info" id="sandvic">Nomad Sandviç</button>
               <div class="container sandviç">
-                  <table id="sandvic">
+                  <table id="sandvicMenu">
                       <tr>
                           <th>Nomad Sandviçler</th>
                           <th colspan="2">Fiyat</th>
@@ -257,6 +257,14 @@
       $("#thirdWaveDrink").toggle();
     });
   });
+
+  $(document).ready(function(){
+    $("#sandvic").click(function(){
+      $("#sandvicMenu").toggle();
+    });
+  });
+
+
 </script>
 </body>
 </html>
