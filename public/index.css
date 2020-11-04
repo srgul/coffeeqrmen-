@@ -39,6 +39,10 @@ table {
     text-align: center;
     padding: 8px;
   }
+
+  tr {
+    background-color: #ffffff;
+  }
   
 
 button { 
