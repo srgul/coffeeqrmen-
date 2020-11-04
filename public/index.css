@@ -60,3 +60,7 @@ button {
   src: url("font/Visual-Hollow-Script.otf") format("opentype");
 }
 
+.responsive {
+  width: 100%;
+  height: auto;
+}
